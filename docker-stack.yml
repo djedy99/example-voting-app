@@ -87,7 +87,7 @@ services:
     ports:
       - "8080:8080"
     stop_grace_period: 1m30s
-    Volumes:
+    volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     deploy:
       placement:
