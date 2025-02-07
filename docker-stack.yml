@@ -52,7 +52,7 @@ services:
       - 5001:80
     networks:
       - backend
-    depends-on:
+    depends_on:
       - db
     deploy:
       replicas: 1
